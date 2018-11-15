@@ -17,6 +17,7 @@ module CacheMoney
   end
 
   def display_coins_used()
+    puts ""
     coin_array = coin_count()
     i = 0
     @coins.each do |key, value|
